@@ -1,0 +1,102 @@
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.home__wrapper__cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 32px 20px;
+  margin: 50px 0;
+}
+
+.card {
+  border-radius: 12px;
+  transition: all 0.25s;
+}
+.card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card__img {
+  border-radius: 12px;
+  overflow: hidden;
+  height: 309px;
+}
+
+.card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 0.3s;
+}
+
+.card__img img:hover {
+  transform: scale(1.01);
+}
+.card__body {
+  padding: 4px;
+  gap: 2px;
+  display: grid;
+}
+.discount-price {
+  color: #7f4dff;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 4px;
+  height: 18px;
+  line-height: 18px;
+}
+
+.price {
+  color: #7e818c;
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px;
+  font-weight: normal;
+}
+.price-pre-month {
+  border-radius: 4px;
+  font-size: 11px;
+  line-height: 16px;
+  margin-top: 2px;
+  padding: 1px 4px;
+  white-space: nowrap;
+  width: min-content;
+  background-color: rgb(255, 255, 0);
+  color: rgb(31, 31, 38);
+}
+
+.title {
+  color: #1f2026;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  height: 32px;
+  overflow: hidden;
+}
+.feedbacks {
+  color: #7e818c;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cart-button {
+  padding: 7px 0;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: #7f4dff;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.006em;
+  line-height: 18px;
+}
