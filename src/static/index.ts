@@ -1,5 +1,8 @@
-export const products = [
+import type { IProduct } from "../types";
+
+export const products: IProduct[] = [
   {
+    isLiked: false,
     discount: {
       discountPrice: 38940,
       discountAmount: 37,
@@ -14,6 +17,7 @@ export const products = [
     minFullPrice: 62000,
     minSellPrice: 40990,
     offer: null,
+
     badges: [
       {
         id: 424,
@@ -161,6 +165,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 24030,
       discountAmount: 31,
@@ -250,6 +255,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 13949,
       discountAmount: 30,
@@ -1510,6 +1516,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 16544,
       discountAmount: 33,
@@ -1599,6 +1606,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 17991,
       discountAmount: 33,
@@ -1751,6 +1759,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 6260,
       discountAmount: 6,
@@ -1833,6 +1842,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 12591,
       discountAmount: 53,
@@ -2012,6 +2022,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 12591,
       discountAmount: 61,
@@ -2182,6 +2193,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 15810,
       discountAmount: 47,
@@ -2884,6 +2896,7 @@ export const products = [
     ],
   },
   {
+    isLiked: false,
     discount: {
       discountPrice: 21845,
       discountAmount: 34,
